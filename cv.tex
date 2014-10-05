@@ -20,9 +20,10 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[10pt,a4paper]{article} % Font size (10-12pt) and paper size (a4paper, letterpaper, legalpaper, etc)
+\documentclass[10pt, a4paper]{article} % Font size (10-12pt) and paper size (a4paper, letterpaper, legalpaper, etc)
 
 \include{structure} % Include structure.tex which contains packages and document layout definitions
+\usepackage{indentfirst}
 
 \hyphenation{Some-long-word} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
 
@@ -34,223 +35,236 @@
 
 \maintitle{Joey Chiao-Yin Hsiao}{}  % Your name and date of birth or subtitle
 
-\noindent\href{mailto:joeycyhsiao@gmail.com}{joeyhsiao@gmail.com}\bull % Your email address
+\noindent\href{mailto:joeycyhsiao@gmail.com}{joeycyhsiao@gmail.com}\bull % Your email address
 \textsmaller{+}886 912-697122\bull % Your phone number(s) and Skype username
 \href{http://www.joeyhsiao.info}{http://www.joeyhsiao.info}\\ % Your URL
-172 Jiande St., East Dist., Taichung City, Taiwan 40148 
+172 Jiande St., East Dist., Taichung, Taiwan 40148 
 
-\spacedhrule{1em}{-1em} % Horizontal rule - the first bracket is whitespace before and the second is after
+\spacedhrule{1.5em}{-1em} % Horizontal rule - the first bracket is whitespace before and the second is after
 
 %----------------------------------------------------------------------------------------
 %	SUMMARY SECTION
 %----------------------------------------------------------------------------------------
 
-\roottitle{Research Interest} % Root section title
+\roottitle{RESEARCH INTEREST} % Root section title
 
 %\vspace{-1.3em}  % Reduce whitespace after the Summary heading and the two-column content 
-Computer-Mediated Communication, Computer-Supported Cooperative Work, Crowd Sourcing,
-Intelligent User Interface, Innovative User Interface, Ubiquitous Computing
+Main: Human-Computer Interaction (\acr{HCI}), Computer-Supported Cooperative Work (\acr{CSCW})
 
-\spacedhrule{1em}{-1em} % Horizontal rule - the first bracket is whitespace before and the second is after
+Sub: Computer-Mediated Communication, Human Computation, Intelligent User Interface
 
+\spacedhrule{1.5em}{-1em} % Horizontal rule - the first bracket is whitespace before and the second is after
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 
-\roottitle{Education} % Top level section
+\roottitle{EDUCATION} % Top level section
 
 \headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{\href{http://www.ntu.edu.tw}{National Taiwan University}, Taipei, Taiwan}
-{Sep '10 -- Jun '13} 
+{\href{http://www.ntu.edu.tw}{National Taiwan University}}
+{Taipei, Taiwan}
 {\headedsubsection % Job title entry for the current employer
 	{M.S. in Computer Science}
-	{GPA: ???/4.0}
+	{Sep '10 -- Jun '13}
 	{\bodytext{Advisor: Dr. Jane Yung-Jen Hsu}}
 }
 
 \headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{\href{http://www.cmu.edu/silicon-valley/}{Carnegie Mellon University Silicon Valley}, Moffett Field, CA, USA}
-{Jul '12 -- Sep '12} 
+{\href{http://www.cmu.edu/silicon-valley/}{Carnegie Mellon University Silicon Valley}}
+{Moffett Field (\acr{CA}), \acr{USA}}
 {\headedsubsection % Job title entry for the current employer
 	{Visiting Student}
-	{}
+	{Jul '12 -- Sep '12} 
 	{\bodytext{Advisor: Dr. Ted Selker}}
 }
 
 \headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{\href{http://www.ntu.edu.tw}{National Taiwan University}, Taipei, Taiwan}
-{Sep '06 -- Jun '10} 
+{\href{http://www.ntu.edu.tw}{National Taiwan University}}
+{Taipei, Taiwan}
 {\headedsubsection % Job title entry for the current employer
 	{B.S. in Computer Science}
-	{GPA:???/4.0}
+	{Sep '06 -- Jun '10} 
 	{\bodytext{}}
 }
 
+\spacedhrule{0.5em}{-1em} % Horizontal rule - the first bracket is whitespace before and the second is after
 
-\spacedhrule{0em}{-1em} % Horizontal rule - the first bracket is whitespace before and the second is after
+%----------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%----------------------------------------------------------------------------------------
+
+\roottitle{PUBLICATION} % Top level section
+
+\begin{itemize}
+
+\itemsep=0pt
+
+\item Rahul Rajan, \textbf{Joey Chiao-Yin Hsiao}, Deven Lahoti, and Ted Selker. 
+``Roger that!'' - The Value of Adding Social Feedback in Audio-mediated Communications. 
+In \textit{Proc. INTERACT '13}, 471-488.
+\item Wenn-Chieh Tsai, \textbf{Joey Chiao-Yin Hsiao}, Hung-Chi Lee, Ching-Hsiu Huang, Jya-Cheng Hu, Rung-Huei Liang, and Jane Yung-Jen Hsu. 
+Designing a Reminiscence Aid in Personal Soundscape. 
+In \textit{Proc. IASDR '13}, 5150-5160.
+\item Wenn-Chieh Tsai, Hung-Chi Lee, \textbf{Joey Chiao-Yin Hsiao}, Rung-Huei Liang, and Jane Yung-Jen Hsu. 
+Framing Design of Reminiscence Aids with Transactive Memory Theory. 
+In \textit{CHI EA '13}, 331-336.
+\item \textbf{Joey Chiao-Yin Hsiao}, Wan-Rong Jih, and Jane Yung-Jen Hsu. 
+Recognizing Continuous Social Engagement Level in Dyadic Conversation by Using Turn-taking and Speech Emotion Patterns. 
+In \textit{AAAI '12 ACR Workshop}.
+\item Wenn-Chieh Tsai, \textbf{Joey Chiao-Yin Hsiao}, Hung-Chi Lee, Ching-Hsiu Huang, and Jane Yung-Jen Hsu. 
+In Search of Lost Sounds: Designing a Reminiscence Aid in Everyday Soundscape. 
+\textit{In DIS '12}. \\
+
+\textbf{Unpublished Technical Report}
+\item \textbf{Joey Chiao-Yin Hsiao}, Hao-Chuan Wang. SOMETHING ABOUT COMMUNITY SOURCING HERE. Submitted to \textit{CSCW '15} (under review).
+\item Da-Yuan Huang, \textbf{Joey Chiao-Yin Hsiao}, Liwei Chan, Yen-Ting Yeh, Bing-Yu Chen, Yi-Ping Hung.
+Face-Centric Touch Interface: A Functional and Memorable Input Space with Rich
+Affordances and Semantics. Submitted to \textit{CHI '15} (under review).
+\item \textbf{Joey Chiao-Yin Hsiao}. Assessing Engagement in Conversation by Hierarchically Decomposing Emotion and Interaction. 
+Master's Thesis, Dept. of Computer Science and Information Engineering, National Taiwan University.
+
+\end{itemize}
+
+\spacedhrule{0.5em}{-1em} % Horizontal rule - the first bracket is whitespace before and the second is after
 
 
+%----------------------------------------------------------------------------------------
+%	HONOR
+%----------------------------------------------------------------------------------------
 
+\roottitle{HONOR} % Top level section
 
+\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
+{\href{http://www.csie.ntu.edu.tw}{Dept. of CS \& IE}, \href{http://www.ntu.edu.tw}{Natl. Taiwan Univ.}}
+{Taipei, Taiwan}
+{\headedsubsection % Job title entry for the current employer
+	{Graduation Representative}
+	{Jun '12} 
+	{\bodytext{Give a speech in the graduation ceremony as the representative of master students of 2010}}
+}
 
-
+\spacedhrule{1.5em}{-1em} % Horizontal rule - the first bracket is whitespace before and the second is after
 
 
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\roottitle{Education} % Top level section
+\roottitle{PROFESSIONAL EXPERIENCE} % Top level section
 
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{\href{http://www.intellecap.com}{Intellecap}/\href{http://istpl.in}{\acr{ISTPL}}}
-{\textsc{Mumbai, Pune \& Hyderabad, India}} {
+%--- Intel-NTU ----------------------------------------------------------------------------------------------------------%
 
-\headedsubsection % Job title entry for the current employer
-{\acr{IT} Consultant}
-{Nov '08 -- Feb '09}
-{\bodytext{Intellecap is a social-sector advisory firm serving corporates, non-profits, development agencies and governments working in developing markets. I assessed their software development team and methodologies, trained their developers and build several web applications. One of those apps is \href{http://www.mostfit.org}{Mostfit}, an open source \acr{MIS} for \href{http://en.wikipedia.org/wiki/Microcredit}{microcredit} lenders.}}
+\headedsection
+{UX Team, \href{http://ccc.ntu.edu.tw/}{Intel-NTU Connected Context Computing Center}}
+{Taipei, Taiwan}{
 
-\headedsubsection % Job title entry for the current employer
-{\acr{IT} \& Strategy Consultant}
-{Jan '10 -- Aug '11}
-{\bodytext{\href{http://www.mostfit.org}{Mostfit} became a success and I was called in to solve several technical challenges, look at potential growth strategies, and assist in making a business case for this product in a company of its own.}}
-
-\headedsubsection % Job title entry for the current employer
-{Chief Technology Officer}
-{Oct '11 -- present}
-{\bodytext{Joined the \acr{C}-family to make \href{http://www.mostfit.org}{Mostfit} the nr.1 software solution for micro credit lenders around the globe.}}
+	\headedsubsection
+	{Research Assistant}
+	{Jul '14 -- Present}
+	{\bodytext{Conduct research on user experience, human-machine communication, 
+               and natural user interface under smart home and smart transportation environment}}
 }
 
-%------------------------------------------------
+%--- CSC Lab ----------------------------------------------------------------------------------------------------------%
 
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{\href{http://www.dharmapublishing.com}{Dharma Publishing}}
-{\textsc{near San Francisco (\acr{CA}), \acr{USA}}} {
+\headedsection
+{\href{http://csclab.tw/}{Collaborative \& Social Computing Lab},
+ \href{http://www.cs.nthu.edu.tw}{Dept. of CS},
+ \href{http://www.nthu.edu.tw}{Natl. Tsing-Hua Univ.}}
+{Hsinchu, Taiwan}{
 
-\headedsubsection % Job title entry for the current employer
-{\acr{IT} Consultant}
-{Nov '09 -- Dec '09}
-{\bodytext{Dharma Publishing, the worlds largest Buddhist publisher, is a non-profit, all-volunteer organization that helps to preserve Tibetan Buddhism and culture. I build them a \href{http://www.dharmapublishing.com}{web store}, and moved the infrastructure of all their web media to a nearly zero maintenance setup that they can maintain themselves.}}
+	\headedsubsection
+	{Collaborative Researcher}
+	{Jul '14 -- Present}
+	{\bodytext{Conduct research on crowd sourcing, leading a project of devloping a proofreading system based on community sourcing}}
 }
 
-%------------------------------------------------
+%--- ROC Army ----------------------------------------------------------------------------------------------------------%
 
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{\href{http://www.kde.org}{KDE}}
-{\href{http://edu.kde.org/kturtle}{edu.kde.org/kturtle}} {
+\headedsection
+{Taiwan Army (Mandatory Military Service)}
+{Taoyuan, Taiwan}{
 
-\headedsubsection % Job title entry for the current employer
-{Software Engineer}
-{Dec '03 -- present}
-{\bodytext{KTurtle is an educational programming environment that simplifies learning the basics of programming. At early age I learned programming using \acr{MSX-LOGO}, by creating KTurtle I want to ensure future generation's access to a similar piece of software. I was honored when KTurtle got admitted to \acr{KDE} in 2003.}}
+	\headedsubsection
+	{Human Resources Management System Designer}
+	{Jun '14}
+	{\bodytext{Conduct a project of revising military human resources management system in a 4-member team}}
+
+	\headedsubsection
+	{Company Chief Consultant (Second Lieutenant)}
+	{Aug '13 -- Jun '14}
+	{\bodytext{Handle psychological consulting, human resources management, and welfare of a military company with 40+ members}}
+
 }
 
-%------------------------------------------------
+%--- OpenHCI ----------------------------------------------------------------------------------------------------------%
 
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{\href{http://truetopiaproject.org}{Truetopia Project}}
-{\href{http://truetopiaproject.org}{truetopiaproject.org}} {
+\headedsection
+{\href{http://www.openhci.com/}{OpenHCI Workshop: A Student-Organized Workshop on HCI}}
+{Taipei, Taiwan}{
 
-\headedsubsection % Job title entry for the current employer
-{Initiator}
-{Nov '07 -- Apr '10}
-{\bodytext{The Truetopia Project is an open source web application (Rails) to facilitate self-governing communities. It provides a workflow for collaborative problem identification and solution design.}}
+	\headedsubsection
+	{Program Chair}
+	{Jan '13 -- Jul '13}
+	{\bodytext{Organize OpenHCI '13 (the 4th OpenHCI Workshop), 
+               with 20+ graduate students across department of computer science, design, and communication of three universities}}
+
+	\headedsubsection
+	{Director of Human Resources Affair}
+	{Jan '11 -- Jul '11}
+	{\bodytext{Manage the human resources of OpenHCI '11 (the 2nd OpenHCI Workshop), 
+               including attendee registration and volunteer recruitment}}
+
 }
 
-%------------------------------------------------
+%--- iAgent Lab ----------------------------------------------------------------------------------------------------------%
 
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{\href{http://www.opendream.th}{Opendream}}
-{\textsc{Bangkok, Thailand}} {
+\headedsection
+{\href{http://agent.csie.ntu.edu.tw/}{Intelligent Agents Lab}, 
+ \href{http://www.csie.ntu.edu.tw}{Dept. of CS \& IE},
+ \href{http://www.ntu.edu.tw}{Natl. Taiwan Univ.}}
+{Taipei, Taiwan}{
 
-\headedsubsection % Job title entry for the current employer
-{\acr{IT} Consultant}
-{Aug '09 -- Sep '09}
-{\bodytext{Architected and largely implemented an open source media sharing web service (\acr{REST} api) that facilitates video uploads, transcoding and streaming. Coached their development team on system design, Ruby development (using Merb/Rails) and testing strategies such as \acr{TDD}/\acr{BDD}.}}
+	\headedsubsection
+	{System Administrator}
+	{Mar '11 -- Jul '13}
+	{\bodytext{Manage devices and web services for 30+ lab members}}
+
+	\headedsubsection
+	{Elders' Caring Projects}
+	{Aug '10 -- Jun '13}
+	{\bodytext{ASK HUNG-CHI TO FILL THIS PART}}
 }
 
-%------------------------------------------------
+%--- StarRain ----------------------------------------------------------------------------------------------------------%
 
-\begin{center}
-\textit{Please refer to \href{http://www.linkedin.com/in/ciesbreijs}{my Linkedin profile} for the complete list of work experiences along with recommendations.}
-\end{center}
+\headedsection
+{\href{http://goo.gl/2Dmqrj}{StarRain Servive Association for Autism}}
+{Taipei, Taiwan}{
 
-%------------------------------------------------
+	\headedsubsection
+	{Volunteer for Autism} 
+	{Feb '08 -- Present}
+	{\bodytext{Organize and attend volunteer activities for autistic children and teenagers regularly}}
 
-\spacedhrule{-0.2em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
+	\headedsubsection
+	{Publicist} 
+	{Sep '08 -- Jun '09}
+	{\bodytext{Publish 4 seasonal magazines and design public relations activities on caring autism}} 
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-
-\roottitle{Education} % Top level section
-
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{Erasmus University Rotterdam}
-{\textsc{Rotterdam, The Netherlands}} {
-
-\headedsubsection % Job title entry for the current employer
-{Bachelor degree in Computer Science \& Economics}
-{2004 -- 2007}
-{\bodytext{Focussed on the economics of open source, rapid application development (\acr{RAD}) and the semantic web technology stack (\acr{RDF}/\acr{RDFS}, \acr{OWL} and \acr{SPARQL}).}}
 }
 
-%------------------------------------------------
 
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{Technical University Delft}
-{\textsc{Delft, The Netherlands}} {
 
-\headedsubsection % Job title entry for the current employer
-{Industrial Design Engineering \textnormal{(discontinued)}}
-{2001 -- 2002} {}
-}
 
-%------------------------------------------------
 
-\headedsection % Employer name which can include a hyperlink and location/URL on the right side of the page
-{Libanon Lyceum}
-{\textsc{Rotterdam, The Netherlands}} {
+\spacedhrule{1.2em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
 
-\headedsubsection % Job title entry for the current employer
-{\acr{VWO} \textnormal{(pre-university secondary education)}}
-{1994 -- 2000} {}
-}
 
-\spacedhrule{0.5em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
 
-%----------------------------------------------------------------------------------------
-%	SKILLS SECTION
-%----------------------------------------------------------------------------------------
 
-\roottitle{Skills} % Top level section
 
-\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
-{Technical specialties:}
-{Software design and implementation, with(in) a team. I love Ruby/Python/Java/C++ and flirt regularly with Haskell. Solid knowledge of web technologies:\ \acr{HTML+CSS}, \acr{XML}, \acr{RDF}, \acr{REST}, \acr{SOAP} and JavaScript (mainly jQuery). Linux administration skills:\ bash, Apache, My\acr{SQL}, Postgres\acr{SQL}, virtualization/cloud (Open\acr{VZ}, \acr{VM}ware, \acr{KVM}, Xen and \acr{EC}2), datacenter automation (Puppet and Chef), continuous integration (Hudson/Jenkins).}
 
-%------------------------------------------------
-
-\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
-{Natural languages:}
-{Dutch \textit{(mother tongue)}, English \textit{(full professional proficiency)}, German \textit{(limited working proficiency)}, French \textit{(elementary proficiency)} and Mandarin Chinese \textit{(beginner)}.}
-
-%------------------------------------------------
-
-\spacedhrule{1.6em}{-0.4em} % Horizontal rule - the first bracket is whitespace before and the second is after
-
-%----------------------------------------------------------------------------------------
-%	INTERESTS SECTION
-%----------------------------------------------------------------------------------------
-
-\roottitle{Interests} % Top level section
-
-\inlineheadsection % Special section that has an inline header with a 'hanging' paragraph
-{Non-exhaustive and in alphabetical order:}
-{Art, Buddhism, cryptography, music, open source, philosophy, software engineering, travel, typography (e.g.\ graphic design, \LaTeX), \acr{UI}/\acr{UX} and vegetarian cooking.}
-
-%----------------------------------------------------------------------------------------
 
 \end{document}
