@@ -10,17 +10,21 @@
 \include{structure} % Include structure.tex which contains packages and document layout definitions
 \singlespacing
 
+\usepackage{fancyhdr}
 
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\footnotesize Joey Chiao-Yin Hsiao\\
+                     Apply for: PhD in Human-Computer Interaction, Carnegie Mellon University, Fall 2015
+      }
 \begin{document}
 
 \begin{center}
-{\Large Statement of Purpose}
+{\Large \textbf{Statement of Purpose}}
 \end{center}
 
-\hfill Joey Chiao-Yin Hsiao
-\spacedhrule{0.5em}{0.5em} % Horizontal rule - the first bracket is whitespace before and the second is after
 
-\noindent Apply for: PhD in Human-Computer Interaction, Carnegie Mellon University \\
+\noindent 
 %\noindent Apply for: PhD in Human-Centered Design \& Engineering, University of Washington\\
 %\noindent Apply for: PhD in Information Science, Cornell University \\
 %\noindent Apply for: PhD in Technology and Social Behaviors, Northwestern University \\
@@ -36,34 +40,26 @@
 %(5) any publications or other professional accomplishments in the field (perhaps conference presentations or public readings); 
 %(6) explanations about problems in your background (if needed); 
 %(7) why you have chosen this grad school 
-%(name one or two professors and what you know of their specific areas or some feature of the program which specifically attracts you).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+%(name one or two professors and what you know of their specific areas or some feature of the program which specifically attracts you)
+\normalsize
+% Intro -------------------------------------------------------------------------
 \input{sections/intro} 
 
-\input{sections/vision}
 
-\input{sections/prof_MS}
+% Tech --------------------------------------------------------------------------
+\input{sections/tech} 
 
-\input{sections/prof_Work}
 
+% Design ------------------------------------------------------------------------
+\input{sections/design}
+
+% Leadership --------------------------------------------------------------------
 \input{sections/leadership}
 
-%-------------------------------------------------------------------------
-% Program Specific
+% Vision-------------------------------------------------------------------------
+%\input{sections/vision}
 
+% Program Specific --------------------------------------------------------------
 \input{sections/schools/cmu_hcii.tex}
 %\input{sections/schools/umich_is.tex}
 %\input{sections/schools/uw_hcde.tex}
@@ -72,10 +68,7 @@
 %\input{sections/schools/vt_cs.tex}
 %\input{sections/schools/stanford_mce.tex}
 
-
-%-------------------------------------------------------------------------
-% Conclusion
-
+% Conclusion -------------------------------------------------------------------
 \input{sections/conclusion}
 
 
